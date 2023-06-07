@@ -1,0 +1,163 @@
+{"0": {
+    "doc": "Introduction",
+    "title": "An introduction to Docs as Code",
+    "content": "Documentation as Code (also known as Docs as Code or DaC) is a way for technical writers and developers to create and publish documents using the same tools and processes used to write code. This approach is quickly gaining popularity among software teams. Using a DaC approach reduces manual work, allowing documentation writers to focus on creating accurate, usable information. It also helps ensure that all your documentation shares a consistent structure and language. Another aspect of the DaC process is the ability to automatically test for formatting and style errors and ensure a new version of the documentation is ready for deployment. In other words, docs as code is an approach to creating and delivering documentation for software. Docs as code means that you treat the documentation in the same way as the code. The docs as code approach combines two important aspects: . | You use the same tooling as the developers, such as version control and continuous integration. | You use the same methods as the developers, for example agile project management. | . ",
+    "url": "/#an-introduction-to-docs-as-code",
+    
+    "relUrl": "/#an-introduction-to-docs-as-code"
+  },"1": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"2": {
+    "doc": "Benefits of the Docs as Code approach",
+    "title": "Benefits of the Docs as Code approach",
+    "content": "DaC methods provide many advantages for both developers and technical writers, including the following: . ",
+    "url": "/benefits/",
+    
+    "relUrl": "/benefits/"
+  },"3": {
+    "doc": "Keeping documentation and code in sync",
+    "title": "Keeping documentation and code in sync",
+    "content": "When a page in the documentation is outdated, it can confuse new employees, remote workers, or end users, thus impacting productivity. If you keep documentation in a separate system, development teams often forget about it - in the worst case, there is no clear source of truth for documentation. Disorganized documentation can increase technical debt. Keeping documentation next to code can help keep it up to date. Developers can update the docs when they change the code - the local availability of documentation also allows developers to update and search sections themselves, rather than rely on a technical writer. However, this still requires ongoing vigilance by developers to update the documentation. Documentation as code solutions can help reduce this burden by updating documentation automatically. ",
+    "url": "/benefits/code-in-sync/",
+    
+    "relUrl": "/benefits/code-in-sync/"
+  },"4": {
+    "doc": "Using the same tools to review documentation and code",
+    "title": "Using the same tools to review documentation and code",
+    "content": "Most organizations manage code changes with pull request workflows - developers submit changes for review before publishing to the code base. The code reviews aim to promote collaboration while standardizing workflows and maintaining code quality. With DaC, you use the same system to review documentation. If the team fails to update the documentation when making a change, the code review should catch it. You could use documentation previews for all pull requests to help reviewers check the documentation’s accuracy. ",
+    "url": "/benefits/same-tools/",
+    
+    "relUrl": "/benefits/same-tools/"
+  },"5": {
+    "doc": "Writer-developer collaboration",
+    "title": "Writer-developer collaboration",
+    "content": "Dedicated technical writers should use the same methods and tools as the developers to ensure collaboration. Writers and developers must work together on complex projects to keep documentation in sync and allow writers to review changes by developers. A shared workflow helps reduce friction and keep everyone on the same page. ",
+    "url": "/benefits/collaboration/",
+    
+    "relUrl": "/benefits/collaboration/"
+  },"6": {
+    "doc": "Automated documentation checks",
+    "title": "Automated documentation checks",
+    "content": "Publishing documentation as part of the CI/CD pipeline (Continuous Integration &amp; Continuous Delivery) lets you automate documentation checks. This can be anything from detecting broken links, enforcing style guides or fixing formatting. Want to generate PDF versions of your docs? Do it as part of your documentation pipeline. ",
+    "url": "/benefits/automated-checks/",
+    
+    "relUrl": "/benefits/automated-checks/"
+  },"7": {
+    "doc": "Documentation versioning",
+    "title": "Documentation versioning",
+    "content": "Documentation versioning is important if your project has multiple software versions that are used in parallel - it is critical to clarify which version the documentation relates to. Most documentation tools have versioning features, but it is still time-consuming to keep documentation in sync. With DaC, you branch the documentation when you branch the code, so versioning is done automatically. ",
+    "url": "/benefits/versioning/",
+    
+    "relUrl": "/benefits/versioning/"
+  },"8": {
+    "doc": "Docs as Code workflow",
+    "title": "Docs as Code workflow",
+    "content": "Here is an outline of the Docs as Code approach in practice, including the tools and processes for implementing DaC in your organization. You can implement this workflow as part of your developer experience strategy. ",
+    "url": "/workflow/",
+    
+    "relUrl": "/workflow/"
+  },"9": {
+    "doc": "Plain text authoring",
+    "title": "Plain text authoring",
+    "content": "The Integrated Development Environment (IDE) is developers’ most widely used tool, including for documentation. Development teams should write all documentation in plain text for easy reading and editing in the IDE. It is common to use simple languages like Markdown to delineate formatting. There are three key advantages of the plain text approach: . | A unified tool and language allow developers to find code easily and avoid distracting context switches. | Plain text is compatible with every IDE and easy for humans to read. Most operating systems support plain-text files, and many open source tools allow non-technical individuals to work with them. | Plain-text documentation helps focus on technical content without distractions like layout considerations. Formatting should be basic, with features such as headings, tables, text highlighting, hypertext links, bullets, and numbers. | . ",
+    "url": "/workflow/plain-text-authoring/",
+    
+    "relUrl": "/workflow/plain-text-authoring/"
+  },"10": {
+    "doc": "Source control",
+    "title": "Source control",
+    "content": "Source control is essential for keeping track of changes, including who made them and when. Development teams should be familiar with a version control system (VCS) that monitors application code, so you can use the same VCS for writing and storing documentation. You can store documentation in a dedicated repository or distribute it together with the relevant source code. Git-based versioning platforms like GitHub and GitLab encourage collaboration between developers and writers, by showing the changes made to every file, with a dedicated space for discussing and explaining the changes. Teams can make granular decisions to accept or reject changes to the documentation. Another benefit of a versioning tool is the ability to work asynchronously with multiple contributors to one file. Branches allow individual team members to create their file versions and merge changes without impacting other contributors nor the original file. A versioning platform also provides an interface that facilitates conflict reporting and resolution. ",
+    "url": "/workflow/source-control/",
+    
+    "relUrl": "/workflow/source-control/"
+  },"11": {
+    "doc": "Publishing",
+    "title": "Publishing",
+    "content": "After writing, versioning, and saving the documentation, you can publish it - ideally in a plain-text format. Creating static web pages with a Static Site Generator (SSG) makes it easier to convert plain-text files to HTML. SSGs let you enhance your brand using CSS stylesheets and add dynamic JS sections. Everything is rendered on the server side. With an SSG, you can decouple content from the final graphics. Developers only handle technical content, and another team can handle the visuals. This approach saves developers time because they don’t need to address formatting. It also makes editing easier because the style applies to all pages. SSGs usually offer features to enhance your content’s usability without requiring extra intervention by developers. These may include search bars, navigation menus, a homepage, a contents page, and documentation displays for previous versions. ",
+    "url": "/workflow/publishing/",
+    
+    "relUrl": "/workflow/publishing/"
+  },"12": {
+    "doc": "Automation",
+    "title": "Automation",
+    "content": "Another advantage of DaC is that it supports automation the same way you might automate a CI/CD pipeline for source code. Continuous integration practices let you build automated tests to check the content whenever someone makes a Pull or Merge request. These tests identify formal and technical errors in the documentation (e.g., invalid links, typos, incorrect punctuation). You can then leverage continuous delivery (CD) to automate the detection and publishing of changes in the main branch - this saves time when publishing new content. Combining CI and CD automation helps speed up the overall documentation process and reduce errors. ",
+    "url": "/workflow/automation/",
+    
+    "relUrl": "/workflow/automation/"
+  },"13": {
+    "doc": "Docs as Code and Markdown",
+    "title": "Docs as Code and Markdown",
+    "content": "One of the most popular tools or better to say language used in the DaC method is Markdown. Markdown was created as a web language to simplify the complex HTML language with its tags and elements. Markdown defines basic concepts, for example, how to write lists or create markup. Markdown is not standardized and due to its origin as an open language, there are multiple flavours, which are developed and used by different platforms and organizations. That means, companies can choose the bundles they need for their requirements. Markdown is easy to learn and by far the most common docs as code language. Nearly all advanced text editors offer Markdown support. The transformation from Markdown to HTML is simple. Advantages of Markdown:  . | Easy to learn . | Widely used across the web . | Offers a great variety of flavours . | . Disadvantages of Markdown:  . | Not standardized with the exception of some basic concepts . | Extensions needed for advanced syntax features . | Not explicitly developed for technical documentation . | . ",
+    "url": "/markdown/",
+    
+    "relUrl": "/markdown/"
+  },"14": {
+    "doc": "Examples of basic Markdown syntax",
+    "title": "Examples of basic Markdown syntax",
+    "content": "| Formatting | Keyboard shortcuts | Markdown syntax | . | Bold text | Command/Ctrl + B | **text** or __text__ | . | Italic text | Command/Ctrl + I | *text* or _text_ | . | Strikethrough text | Command/Ctrl + Shift + S | ~~text~~ | . | Inline code | Command/Ctrl + Shift + M | `text` | . | Links | Command/Ctrl + K | [text](page URL) | . ",
+    "url": "/markdown/basics/",
+    
+    "relUrl": "/markdown/basics/"
+  },"15": {
+    "doc": "Static Sites Generators (SSGs)",
+    "title": "Static Sites Generators (SSGs)",
+    "content": " ",
+    "url": "/ssg/",
+    
+    "relUrl": "/ssg/"
+  },"16": {
+    "doc": "What is a static site generator?",
+    "title": "What is a static site generator?",
+    "content": "A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. Essentially, a static site generator automates the task of coding individual HTML pages and gets those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users’ browsers. Static site generators are an alternative to content management systems (CMS) — another type of tool for managing web content, generating webpages, and implementing templates. (A template is a reusable format for web content; developers use templates to avoid writing the same formatting over and over.) . A static site generator works by taking source files, such as Markdown or HTML, and converting them into a set of static HTML files. The source files can be written in a variety of languages, such as Markdown, HTML, or JavaScript. The generator then uses templates to add a consistent layout and design to the HTML files. Once the HTML files are generated, they can be served by any web server. ",
+    "url": "/ssg/introduction/",
+    
+    "relUrl": "/ssg/introduction/"
+  },"17": {
+    "doc": "What is the difference between a static site generator and CMS?",
+    "title": "What is the difference between a static site generator and CMS?",
+    "content": "In the early days of the Internet, websites were stored as static HTML sites, with all webpages laid out and hard coded in advance. This was inefficient because it required developers to code each webpage manually. Content management systems (CMS) emerged as a way for developers to avoid all that manual setup. Instead of coding the pages ahead of time, content is stored in CMS database, and when a user requests a page, the server does the following: . | Queries the database for the right content . | Identifies the template the content will fit into . | Generates the page . | Serves the page to the user . | . Content in the CMS has to fit in one of the fields offered by the CMS database, but as long as it does, it should appear in its proper place on the website every time. A static site generator is a compromise between these two approaches. Like CMS, it allows developers to use templates and automatically generates webpages — but it does the latter ahead of time, instead of in response to a user’s request. This makes for faster website performance, because the webpages are instantly ready for delivery to end users. It also offers greater customization to developers, since they are not limited by the database fields offered by the CMS. ",
+    "url": "/ssg/vs-cms/",
+    
+    "relUrl": "/ssg/vs-cms/"
+  },"18": {
+    "doc": "What are the pros and cons of using a static site generator?",
+    "title": "What are the pros and cons of using a static site generator?",
+    "content": "Static site generators offer several benefits. Due to the fact that static sites do not require server-side processing, they are fast and lightweight. The result is that they can be served quickly, regardless of the speed of the connection. Additionally, static sites are more secure since they do not require server-side scripts, which can be hacked. Furthermore, static sites do not require a database or server-side scripts, so they are easy to maintain and scale. Pros . | Performance: Because static site generators create webpages in advance instead of “on demand” (as with CMS), webpages load slightly faster in users’ browsers. | Customization: Developers can create any template they want. They are not limited by the fields provided by CMS, nor by CMS’s built-in templates. | Lighter backend: Static websites are lightweight and do not require so much code to run on the server side, whereas CMS-based websites constantly query the server side for content. | . Cons . | Few or no pre-built templates: The downside of unlimited customization is that it can take longer to get started. Many static site generators do not come with templates, and developers will have to spend a lot of time building them from scratch at first. | No user-friendly interface: It is harder for non-developer users to publish content using a static site generator. There is no CMS interface, and working with raw unformatted data may be intimidating for users. In addition, developer support is often necessary for making website updates. | . ",
+    "url": "/ssg/pros-and-cons/",
+    
+    "relUrl": "/ssg/pros-and-cons/"
+  },"19": {
+    "doc": "Top 11 Static Site Generators for 2023",
+    "title": "Top 11 Static Site Generators for 2023",
+    "content": "The best generator for your project will depend on your unique needs and requirements as each generator has a unique set of benefits and drawbacks. Tips for getting started with static site generators:​ . | Choose a static site generator that is suitable for your project. | Familiarize yourself with the generator’s documentation. | Start with a simple project to get a feel for the generator and its capabilities. | Look for documentation and tutorials to help you learn and troubleshoot any issues. | Join the community and seek for assistance if necessary. | . It is critical to consider factors such as performance, ease of use, and community support when selecting a static site generator. Furthermore, it is critical to be aware of the generator’s limitations, such as the built-in templates and the required knowledge of specific languages or frameworks. ",
+    "url": "/ssg/top-11/",
+    
+    "relUrl": "/ssg/top-11/"
+  },"20": {
+    "doc": "The most popular static sites generators",
+    "title": "The most popular static sites generators nowadays are:",
+    "content": ". | Astro is a new static site generator built with JavaScript and gaining popularity. It allows you to build your website with your favourite framework and even multiple frameworks at the same time. | . Read more here: Astro . | Gatsby is a popular static site generator built with React and is an Opensource framework. It is designed for building high-performance, scalable and secured websites and web apps. | . Read more here: Gatsby . | Next.js is another popular static site generator built with React. It is designed for building web apps and server-rendered React apps. | . Read more here: Next.js . | Jekyll is a static site generator written in Ruby. It is designed for building blogs and other simple websites. It takes text written in your favourite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more. | . Read more here: Jekyll . | Hugo is an open-source static site generator written in Go. It is designed for building fast, modern websites, and is known for its speed and performance. | . Read more here: Hugo . | Nuxt.js is a static site generator for Vue.js, which is a JavaScript framework for building web applications. It is designed for building server-rendered Vue.js apps, and offers a powerful set of features for building complex web apps. | . Read more here: Nuxt.js . | Docusaurus is a static site generator for documentation, built by Facebook. It is designed for building and maintaining documentation websites, and offers a simple and easy-to-use interface. | . Read more here: Docusaurus . | MkDocs is a static site generator for documentation, built with Python. It is designed for building and maintaining documentation websites, and offers a simple and easy-to-use interface. Documentation source files are written in Markdown, and configured with a single YAML configuration file. | . Read more here: MkDocs . | Hexo is a static site generator, &amp; powerful blog framework built with Node.js. It is designed for building blogs and other simple websites. | . Read more here: Hexo . | VuePress is a static site generator built with Vue.js. It is designed for building documentation and simple websites and is optimized for technical documentation. | . Read more here: VuePress . | Eleventy is a static site generator built with JavaScript. It is a simple and flexible tool for building any kind of website, including blogs, portfolios, and documentation sites. | . Read more here: Eleventy . ",
+    "url": "/ssg/top-11/list#the-most-popular-static-sites-generators-nowadays-are",
+    
+    "relUrl": "/ssg/top-11/list#the-most-popular-static-sites-generators-nowadays-are"
+  },"21": {
+    "doc": "The most popular static sites generators",
+    "title": "The most popular static sites generators",
+    "content": " ",
+    "url": "/ssg/top-11/list",
+    
+    "relUrl": "/ssg/top-11/list"
+  },"22": {
+    "doc": "Bibliography",
+    "title": "Bibliography",
+    "content": ". | ​Why we use a ‘docs as code’ approach for technical documentation | ​Docs as Code | ​Documentation As Code | ​Documentation as Code: Why You Need It &amp; How to Get Started | ​Docs as Code: A Development Approach to Documentation | Docs as Code: An introduction for beginners | ​Quick Start with Docs as Code | Five fast facts about docs as code at GitLab | A Technical Writer’s Introduction to Docs as Code | Docs-as-code for technical documentation | parson AG | ​Why you should consider using docs-as-code | ​Adopting Docs-as-Code: From Hackathon to Production | How to format your text in Trello | Trello | Atlassian Support | What is a static site generator? | Cloudflare | ​Top 10 Static Site Generators — Build Blazing Fast Websites | Altogic - Backend as a service platform | . ",
+    "url": "/bibliography/",
+    
+    "relUrl": "/bibliography/"
+  }
+}
